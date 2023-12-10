@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class App1ProcessConfig(AppConfig):
+class App2Config(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app1_process'
+    name = 'app2'
